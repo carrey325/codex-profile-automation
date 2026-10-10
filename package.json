@@ -1,0 +1,15 @@
+{
+  "name": "codex-activity-banner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first, full-width Codex activity banner for GitHub profiles",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "demo": "node scripts/update.mjs --demo --output docs/preview.svg",
+    "update": "node scripts/update.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": { "codex-usage-analyzer": "0.4.1" },
+  "engines": { "node": ">=20" }
+}

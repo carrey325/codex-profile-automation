@@ -1,0 +1,7 @@
+node_modules/
+output/
+.codex/
+auth.json
+.env*
+*.tmp
+coverage/
